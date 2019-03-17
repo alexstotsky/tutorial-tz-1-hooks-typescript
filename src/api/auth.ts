@@ -3,7 +3,7 @@ import { IUserIdentity } from '../models/user'
 
 interface IAuthResponse {
   status: number;
-  data?: any;
+  data?: string;
   errorText?: string;
 }
 
